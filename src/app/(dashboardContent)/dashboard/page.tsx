@@ -31,7 +31,7 @@ export default function DashBoardLayout({children}:{children:React.ReactNode}) {
             <BreadcrumbList>
               <BreadcrumbItem className="hidden md:block">
                 <BreadcrumbLink href="#">
-                  Building Your Application
+                  Building Your Application in your own choice
                 </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator className="hidden md:block" />
@@ -43,8 +43,8 @@ export default function DashBoardLayout({children}:{children:React.ReactNode}) {
           </Breadcrumb>
         </header>
         <div className="flex flex-1 flex-col gap-4 p-4">
-          <h1>This is dashboard content page</h1>
-        <h1>{children}</h1>
+          <h1>Change route </h1>
+        <div>{children}</div>
         </div>
       </SidebarInset>
     </SidebarProvider>
