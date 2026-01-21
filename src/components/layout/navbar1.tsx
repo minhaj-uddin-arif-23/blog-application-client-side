@@ -68,6 +68,7 @@ const menu: MenuItem[] = [
   },
   { title: "About", url: "/about" },
   { title: "Contact", url: "/contact" },
+  {title:"Dashboard",url:"/dashboard"}
 ];
 
 const Navbar1 = ({ className }: Navbar1Props) => {
